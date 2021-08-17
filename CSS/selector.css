@@ -1,0 +1,27 @@
+/*SELECTOR SECTION*/
+.language-container {
+  display: flex;
+  padding: 100px 42px 36px;
+  align-items: center;
+}
+.language {
+  display: flex;
+}
+.language-container span {
+  margin-top: 5px;
+}
+.language li {
+  list-style-type: none;
+  color: #lightgray;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.language li:first-child {
+  font-weight: bolder;
+  padding: 0px 6px;
+  border-right: 1px solid lightgray;
+}
+.language li:last-child {
+  padding: 0px 6px;
+}

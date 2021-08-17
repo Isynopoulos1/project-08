@@ -1,0 +1,16 @@
+/*FOOTER-SECTION*/
+footer {
+  background-color: #f7f9fa;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  grid-gap: 1rem;
+  padding: 14px;
+}
+footer a {
+  text-decoration: none;
+  color: #2c2e2f;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 10px;
+}
