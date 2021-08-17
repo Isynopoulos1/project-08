@@ -23,13 +23,35 @@ main {
 .branding img {
   width: 110px;
 }
+/*LOGIN SECTION*/
+.login {
+  padding: 42px 42px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+input {
+  font-size: 10px;
+  padding: 15px;
+  border: 1px solid #eaeced;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #0070ba;
+}
 /*SELECTOR SECTION*/
 .language-container {
   display: flex;
   padding: 400px 42px 36px;
+  align-items: center;
 }
 .language {
   display: flex;
+}
+.language-container span {
+  margin-top: 5px;
 }
 .language li {
   list-style-type: none;
@@ -46,9 +68,7 @@ main {
 .language li:last-child {
   padding: 0px 6px;
 }
-.language::before {
-  content: "⋁";
-}
+
 /*FOOTER-SECTION*/
 footer {
   background-color: #f7f9fa;

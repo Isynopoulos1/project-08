@@ -5,6 +5,10 @@
     <title>Paypayl L&F</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header></header>
@@ -14,11 +18,18 @@
           <div class="branding">
             <img src="./images/paypal-logo.png" alt="paypal-logo" />
           </div>
+          <div class="login">
+            <input
+              placeholder="Correo electrónico o número de móvil"
+              type="email"
+            />
+            <input placeholder="Contraseña" type="password" />
+          </div>
           <div class="selector">
             <div class="country"></div>
-
             <div class="language-container">
-              <label for="flag-">🇪🇸 </label>
+              <span>🇪🇸 </span>
+              <i class="fa fa-angle-down"></i>
               <div class="language">
                 <li>Español</li>
                 <li>English</li>
