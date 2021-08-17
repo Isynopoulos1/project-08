@@ -10,10 +10,12 @@ main {
   margin-bottom: 20px;
 }
 .section {
-  width: 33.3%;
-  height: 600px;
+  width: 460px;
+  height: 550px;
   border: 1px solid #eaeced;
   border-radius: 5px;
+  position: relative;
+  margin-bottom: 200px;
 }
 .branding {
   display: flex;
@@ -22,4 +24,18 @@ main {
 }
 .branding img {
   width: 110px;
+}
+/*RESPONSIVE SECTION*/
+/*TABLET*/
+
+/*MOBILE*/
+@media (max-width: 760px) {
+  .branding {
+    padding: 0;
+  }
+  .section {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
 }
