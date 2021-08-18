@@ -18,34 +18,35 @@
     />
   </head>
   <body>
-    <header></header>
-    <main>
-      <div class="main-container">
-        <div class="section">
-          <div class="branding">
-            <img src="./images/paypal-logo.png" alt="paypal-logo" />
-          </div>
-          <div class="login">
-            <input
-              placeholder="Correo electrónico o número de móvil"
-              type="email"
-            />
-            <input placeholder="Contraseña" type="password" />
-            <p>¿Has olvidado la contraseña?</p>
-            <button type="#">Iniciar sesión</button>
-          </div>
-          <div class="signup-container"></div>
-
-          <div class="selector">
-            <div class="country"></div>
-            <div class="language-container">
-              <span>🇪🇸 </span>
-              <i class="fa fa-angle-down"></i>
-              <div class="language">
-                <li>Español</li>
-                <li>English</li>
-              </div>
+    <main class="main-container">
+      <div class="section">
+        <div class="branding">
+          <img src="./images/paypal-logo.png" alt="paypal-logo" />
+        </div>
+        <form class="login" autocomplete>
+          <input
+            placeholder="Correo electrónico o número de móvil"
+            type="email"
+          />
+          <input placeholder="Contraseña" type="password" />
+          <p>¿Has olvidado la contraseña?</p>
+          <button type="submit">Iniciar sesión</button>
+          <div class="signup-container">
+            <div class="signup-wrapper">
+              <span>o</span>
             </div>
+          </div>
+          <button type="#">Crear cuenta</button>
+        </form>
+        <div class="selector">
+          <div class="country"></div>
+          <div class="language-container">
+            <span>🇪🇸 </span>
+            <i class="fa fa-angle-down"></i>
+            <ul class="language">
+              <li>Español</li>
+              <li>English</li>
+            </ul>
           </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
 /*FOOTER-SECTION*/
 footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   background-color: #f7f9fa;
   display: flex;
-  width: 100%;
   justify-content: center;
   grid-gap: 1rem;
   padding: 14px;

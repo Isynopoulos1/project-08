@@ -1,7 +1,7 @@
 /*SELECTOR SECTION*/
 .language-container {
   display: flex;
-  padding: 100px 42px 36px;
+  padding: 30px 42px 36px;
   align-items: center;
 }
 .language {
